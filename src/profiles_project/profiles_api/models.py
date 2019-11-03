@@ -36,7 +36,7 @@ class UserProfilesManager(BaseUserManager):
 
 
 
-class UserProfiles(AbstractBaseUser, PermissionsMixin):
+class UserProfile(AbstractBaseUser, PermissionsMixin):
     """
     Represent a user profile in the system
     """
